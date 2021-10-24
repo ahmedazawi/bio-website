@@ -71,11 +71,11 @@
   width: 60%;
   padding-left: 30px;
 }
-.project-description > p {
+.project-description p {
   padding: 0 10px;
   line-height: 1.5em;
   font-weight: lighter;
-  color: rgb(184, 186, 189);
+  color: rgb(184, 186, 189) !important;
 }
 
 /* --------- Responsive Media queries -------- */

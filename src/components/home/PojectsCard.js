@@ -8,9 +8,15 @@ const PojectsCard = (props) => {
           alt={props.items.alt}
         />
       </div>
+
       <div className="project-description">
-        <h3>{props.items.title} </h3>
-        <p>{props.items.description}</p>
+        <a
+          href={props.items.url}
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          <h3>{props.items.title} </h3>
+          <p>{props.items.description}</p>
+        </a>
       </div>
     </div>
   );
