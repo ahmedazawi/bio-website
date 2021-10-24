@@ -143,9 +143,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .projects-container {
-    /* align-items: flex-start; */
-  }
   .projects-cards {
     grid-template-columns: repeat(1, 1fr);
   }
