@@ -39,7 +39,7 @@ const Head = () => {
           </div>
           <div className="head-btn">
             <NavLink
-              to="/Portifolio"
+              to="/portifolio"
               style={{
                 textDecoration: "none",
                 marginRight: "15px",

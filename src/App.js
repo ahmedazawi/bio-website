@@ -1,7 +1,9 @@
 import "./assets/css/App.css";
+import Sidebar from "./components/Sidebar";
 import AboutMe from "./views/AboutMe";
 import Resume from "./views/Resume";
-import Sidebar from "./components/Sidebar";
+import Portifolio from "./views/Portifolio";
+import Contact from "./views/Contact";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={AboutMe} />
             <Route path="/resume" component={Resume} />
+            <Route path="/portifolio" component={Portifolio} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </div>
       </BrowserRouter>

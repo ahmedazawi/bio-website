@@ -79,28 +79,52 @@ const Sidebar = () => {
           </p>
           <div className="social-circles">
             <div>
-              <FontAwesomeIcon className="f-icon" icon={faFacebook} size="lg" />
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="https://web.facebook.com/ahmed.alazawi.92/"
+              >
+                <FontAwesomeIcon
+                  className="f-icon"
+                  icon={faFacebook}
+                  size="lg"
+                />
+              </a>
             </div>
             <div>
-              <FontAwesomeIcon
-                className="f-icon"
-                icon={faInstagram}
-                size="lg"
-              />
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="https://www.instagram.com/az.wi98/"
+              >
+                <FontAwesomeIcon
+                  className="f-icon"
+                  icon={faInstagram}
+                  size="lg"
+                />
+              </a>
             </div>
             <div>
-              <FontAwesomeIcon
-                className="f-icon"
-                icon={faGithubAlt}
-                size="lg"
-              />
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="https://github.com/ahmedazawi"
+              >
+                <FontAwesomeIcon
+                  className="f-icon"
+                  icon={faGithubAlt}
+                  size="lg"
+                />
+              </a>
             </div>
             <div>
-              <FontAwesomeIcon
-                className="f-icon"
-                icon={faLinkedinIn}
-                size="lg"
-              />
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="https://www.linkedin.com/in/ahmed-husam-60396620a/"
+              >
+                <FontAwesomeIcon
+                  className="f-icon"
+                  icon={faLinkedinIn}
+                  size="lg"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -136,7 +160,7 @@ const Sidebar = () => {
 
           <NavLink
             className="section-nav-link"
-            to="/Portifolio"
+            to="/portifolio"
             activeClassName="selected"
             activeStyle={{
               fontWeight: "800",

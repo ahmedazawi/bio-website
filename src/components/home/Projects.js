@@ -15,7 +15,7 @@ const Projects = () => {
     <div>
       <div className="what-ido-title" style={{ margin: "40px 0" }}>
         <div></div>
-        <h1>My Projects</h1>
+        <h1>Latest Projects</h1>
       </div>
       <div className="projects-container">
         <div className="projects-cards">

@@ -12,6 +12,7 @@ body {
 }
 .side-line {
   margin-left: 320px;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .app {
@@ -27,7 +28,7 @@ body {
   border: none;
   color: rgba(255, 255, 255);
   cursor: pointer;
-  width: 160px;
+  width: 170px;
   height: 40px;
   background-color: rgb(108, 84, 162);
   justify-content: center;
@@ -52,7 +53,7 @@ body {
   border: none;
   color: rgba(255, 255, 255);
   cursor: pointer;
-  width: 160px;
+  width: 170px;
   height: 40px;
   background-color: rgb(48, 68, 91, 0.6);
   justify-content: center;
@@ -70,4 +71,62 @@ body {
 .secondary-btn:hover {
   background-color: rgb(48, 68, 91, 1);
   transition: all 0.5s;
+}
+/* ----------- portifolio & Contact page  ------------*/
+.portifolio-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.portifolio-header > h1 {
+  margin-top: 60px;
+}
+.portifolio-header > p,
+span {
+  text-align: center;
+  width: 70%;
+  line-height: 1.5em;
+  font-weight: lighter;
+  color: rgb(184, 186, 189);
+  margin: 0;
+}
+.portifolio-header > p > a {
+  color: rgb(108, 84, 162);
+  text-decoration: none;
+  font-size: 18px;
+}
+.portifolio-header > p > a:hover {
+  text-decoration: underline;
+}
+.portifolio-header .contact-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 250px;
+}
+/* ----------------- */
+/* ------------ resume page ------------ */
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 30, 41);
+  width: 85%;
+  height: 100%;
+  padding: 0 40px;
+}
+.resume-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.resume-head div:first-of-type {
+  width: 75%;
+}
+.resume-head div:first-of-type {
 }
