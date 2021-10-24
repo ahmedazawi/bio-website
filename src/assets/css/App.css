@@ -116,7 +116,9 @@ span {
   background-color: rgb(21, 30, 41);
   width: 85%;
   height: 100%;
-  padding: 0 40px;
+  padding: 20px 40px;
+  margin: 50px 0;
+  border-radius: 5px;
 }
 .resume-head {
   display: flex;
@@ -126,7 +128,134 @@ span {
   width: 100%;
 }
 .resume-head div:first-of-type {
-  width: 75%;
+  width: 80%;
 }
-.resume-head div:first-of-type {
+.resume-head .resume-contact {
+  margin-top: 25px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(185, 188, 191);
+}
+
+.resume-head .resume-contact > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 0;
+  border-left: 1px solid rgb(30, 30, 43);
+}
+.resume-introduction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+.resume-intro-p {
+  margin-left: 50px;
+}
+.resume-intro-p p {
+  line-height: 1.5em;
+  font-weight: lighter;
+  color: rgb(184, 186, 189);
+}
+
+.resume-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.resume-description p,
+small {
+  line-height: 1.5em;
+  font-weight: lighter;
+  color: rgb(184, 186, 189);
+}
+.resume-description big {
+  color: white;
+}
+.resume-section-one {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.resume-section-two {
+  width: 40%;
+  margin-left: 80px;
+}
+.resume-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.resume-title > div {
+  width: 7px;
+  height: 25px;
+  background-color: rgb(108, 84, 162);
+  margin-right: 15px;
+}
+.resume-inside-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-two-divs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgb(184, 186, 189);
+}
+.section-two-divs > ul > li {
+  padding: 10px;
+}
+@media only screen and (max-width: 1060px) {
+  .resume-description {
+    flex-direction: column;
+  }
+  .resume-section-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .resume-section-two {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .resume {
+    width: 70vw;
+  }
+  .resume-head {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .resume-introduction {
+    flex-direction: column;
+  }
+  .resume-intro-p {
+    margin-left: 0;
+  }
+  .resume-intro-p p {
+    line-height: 1.5em;
+    font-weight: lighter;
+    color: rgb(184, 186, 189);
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .resume-contact > div {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .resume-head {
+    padding: 0;
+  }
 }
