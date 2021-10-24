@@ -31,10 +31,10 @@ const Head = () => {
                 lineHeight: "1.8",
               }}
             >
-              I'm a software engineer specialised in frontend and backend
-              development for complex scalable web apps. I write about software
-              development on my blog. Want to know how I may help your project?
-              Check out my project portfolio and online resume.
+              I'm a Web developer specialised in frontend development for
+              scalable web apps. I write about software development on my blog.
+              Want to know how I may help your project? Check out my project
+              portfolio and online resume.
             </p>
           </div>
           <div className="head-btn">
