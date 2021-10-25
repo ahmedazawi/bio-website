@@ -31,7 +31,7 @@ const Projects = () => {
             marginTop: "50px",
           }}
         >
-          <button className="primary-btn">
+          <button id="por-btn" className="primary-btn">
             <FontAwesomeIcon icon={faArrowCircleRight} size="lg" />
             <span>View Portifolio</span>
           </button>

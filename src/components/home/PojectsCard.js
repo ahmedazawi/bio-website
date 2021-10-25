@@ -1,7 +1,10 @@
 import React from "react";
 const PojectsCard = (props) => {
+  const urlHandler = () => {
+    return (window.location.href = props.items.url);
+  };
   return (
-    <div className="project-card">
+    <div onClick={urlHandler} className="project-card">
       <div className="project-img">
         <img
           src={require("../../assets/images/" + props.items.img).default}
@@ -10,13 +13,8 @@ const PojectsCard = (props) => {
       </div>
 
       <div className="project-description">
-        <a
-          href={props.items.url}
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          <h3>{props.items.title} </h3>
-          <p>{props.items.description}</p>
-        </a>
+        <h3>{props.items.title} </h3>
+        <p>{props.items.description}</p>
       </div>
     </div>
   );
