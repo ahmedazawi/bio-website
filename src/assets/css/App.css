@@ -28,7 +28,7 @@ body {
   border: none;
   color: rgba(255, 255, 255);
   cursor: pointer;
-  width: 170px;
+  width: 180px;
   height: 40px;
   background-color: rgb(108, 84, 162);
   justify-content: center;
@@ -53,7 +53,7 @@ body {
   border: none;
   color: rgba(255, 255, 255);
   cursor: pointer;
-  width: 170px;
+  width: 180px;
   height: 40px;
   background-color: rgb(48, 68, 91, 0.6);
   justify-content: center;
