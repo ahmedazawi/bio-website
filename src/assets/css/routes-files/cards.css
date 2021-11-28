@@ -44,7 +44,8 @@
 .project-card {
   display: flex;
   display: -webkit-flex;
-
+  text-decoration: none;
+  color: #fff;
   flex-direction: row;
   justify-content: flex-start;
   width: calc(230px + 60vw);

@@ -4,7 +4,7 @@ const PojectsCard = (props) => {
     return (window.location.href = props.items.url);
   };
   return (
-    <div onClick={urlHandler} className="project-card">
+    <a href={props.items.url} target="_blank" className="project-card">
       <div className="project-img">
         <img
           src={require("../../assets/images/" + props.items.img).default}
@@ -16,7 +16,7 @@ const PojectsCard = (props) => {
         <h3>{props.items.title} </h3>
         <p>{props.items.description}</p>
       </div>
-    </div>
+    </a>
   );
 };
 
