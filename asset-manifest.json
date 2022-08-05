@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.7b8a9145.chunk.css",
-    "main.js": "/my_portfolio/static/js/main.34d65cfd.chunk.js",
-    "main.js.map": "/my_portfolio/static/js/main.34d65cfd.chunk.js.map",
-    "runtime-main.js": "/my_portfolio/static/js/runtime-main.6b4bc271.js",
-    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.6b4bc271.js.map",
-    "static/js/2.898ced13.chunk.js": "/my_portfolio/static/js/2.898ced13.chunk.js",
-    "static/js/2.898ced13.chunk.js.map": "/my_portfolio/static/js/2.898ced13.chunk.js.map",
-    "index.html": "/my_portfolio/index.html",
-    "static/css/main.7b8a9145.chunk.css.map": "/my_portfolio/static/css/main.7b8a9145.chunk.css.map",
-    "static/js/2.898ced13.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.898ced13.chunk.js.LICENSE.txt",
-    "static/media/20211023_173933.jpg": "/my_portfolio/static/media/20211023_173933.948d599e.jpg",
-    "static/media/47D8053E-3AB0-4571-B2FA-477B5E7B9611_1_105_c.jpeg": "/my_portfolio/static/media/47D8053E-3AB0-4571-B2FA-477B5E7B9611_1_105_c.7d00da5d.jpeg",
-    "static/media/Al-abed.png": "/my_portfolio/static/media/Al-abed.9cb3ffbd.png",
-    "static/media/To-do-List-scaled.jpeg": "/my_portfolio/static/media/To-do-List-scaled.0885240f.jpeg",
-    "static/media/blog-sample-img-lrg.jpeg": "/my_portfolio/static/media/blog-sample-img-lrg.3074acd0.jpeg",
-    "static/media/default-img.jpeg": "/my_portfolio/static/media/default-img.8b215479.jpeg",
-    "static/media/msmar_group.png": "/my_portfolio/static/media/msmar_group.f12aad4c.png",
-    "static/media/mutah.png": "/my_portfolio/static/media/mutah.86360424.png",
-    "static/media/urTask.png": "/my_portfolio/static/media/urTask.e7833b2d.png"
+    "main.css": "/bio-website/static/css/main.2ac4e8f0.chunk.css",
+    "main.js": "/bio-website/static/js/main.9cb3fbf6.chunk.js",
+    "main.js.map": "/bio-website/static/js/main.9cb3fbf6.chunk.js.map",
+    "runtime-main.js": "/bio-website/static/js/runtime-main.5811ef8b.js",
+    "runtime-main.js.map": "/bio-website/static/js/runtime-main.5811ef8b.js.map",
+    "static/js/2.31e3197a.chunk.js": "/bio-website/static/js/2.31e3197a.chunk.js",
+    "static/js/2.31e3197a.chunk.js.map": "/bio-website/static/js/2.31e3197a.chunk.js.map",
+    "index.html": "/bio-website/index.html",
+    "static/css/main.2ac4e8f0.chunk.css.map": "/bio-website/static/css/main.2ac4e8f0.chunk.css.map",
+    "static/js/2.31e3197a.chunk.js.LICENSE.txt": "/bio-website/static/js/2.31e3197a.chunk.js.LICENSE.txt",
+    "static/media/20211023_173933.jpg": "/bio-website/static/media/20211023_173933.948d599e.jpg",
+    "static/media/47D8053E-3AB0-4571-B2FA-477B5E7B9611_1_105_c.jpeg": "/bio-website/static/media/47D8053E-3AB0-4571-B2FA-477B5E7B9611_1_105_c.7d00da5d.jpeg",
+    "static/media/Al-abed.png": "/bio-website/static/media/Al-abed.9cb3ffbd.png",
+    "static/media/To-do-List-scaled.jpeg": "/bio-website/static/media/To-do-List-scaled.0885240f.jpeg",
+    "static/media/blog-sample-img-lrg.jpeg": "/bio-website/static/media/blog-sample-img-lrg.3074acd0.jpeg",
+    "static/media/default-img.jpeg": "/bio-website/static/media/default-img.8b215479.jpeg",
+    "static/media/msmar_group.png": "/bio-website/static/media/msmar_group.f12aad4c.png",
+    "static/media/mutah.png": "/bio-website/static/media/mutah.86360424.png",
+    "static/media/urTask.png": "/bio-website/static/media/urTask.e7833b2d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b4bc271.js",
-    "static/js/2.898ced13.chunk.js",
-    "static/css/main.7b8a9145.chunk.css",
-    "static/js/main.34d65cfd.chunk.js"
+    "static/js/runtime-main.5811ef8b.js",
+    "static/js/2.31e3197a.chunk.js",
+    "static/css/main.2ac4e8f0.chunk.css",
+    "static/js/main.9cb3fbf6.chunk.js"
   ]
 }
